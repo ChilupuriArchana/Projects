@@ -1,7 +1,7 @@
-This project check if a 9 x 9 Sudoku board is valid or not.
+This project is to solve 9 x 9 Sudoku board.
 
 Sample Input:
-83..7....
+53..7....
 6..195...
 .98....6.
 8...6...3
@@ -11,5 +11,14 @@ Sample Input:
 ...419..5
 ....8..79
 
-Sample Output: False 
+Sample Output: 
+534678912
+672195348
+198342567
+859761423
+426853791
+713924856
+961537284
+287419635
+345286179
 
