@@ -12,12 +12,14 @@
                     <div class="card-body">
                         <h2 class="card-title text-center mb-4">QR Code Generator</h2>
                         <textarea id="qrText" class="form-control mb-3" placeholder="Enter text or URL"></textarea>
-                        <button id="generateQrButton" class="btn btn-primary btn-block">Generate QR Code</button>
+                        <button id="generateQrButton" class="btn btn-primary btn-block" onclick="generateQrCode()">Generate QR Code</button>
                         <div id="generatedQrCode" class="text-center mt-4"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="qr_code_script.js"></script>
 </body>
 </html>
