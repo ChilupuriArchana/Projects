@@ -2,13 +2,22 @@
 <html>
 <head>
     <title>QR Code Generator</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="main">
-        <h1>QR Code Generator</h1>
-        <textarea id="qrText" placeholder="Enter text or URL"></textarea>
-        <button id="generateQrButton">Generate QR Code</button>
-        <div id="generatedQrCode"></div>
+    <div class="main mt-5"> 
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title text-center mb-4">QR Code Generator</h2>
+                        <textarea id="qrText" class="form-control mb-3" placeholder="Enter text or URL"></textarea>
+                        <button id="generateQrButton" class="btn btn-primary btn-block">Generate QR Code</button>
+                        <div id="generatedQrCode" class="text-center mt-4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
